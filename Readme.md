@@ -12,7 +12,7 @@ Each line is an itemset, and our job is to generate association rules by providi
 ## Usage
 Run the command below to install all the required packages.
 ```
-pip install -r requirements.txt -y
+pip install -r requirements.txt
 ```
 
 To run the source code, type:
