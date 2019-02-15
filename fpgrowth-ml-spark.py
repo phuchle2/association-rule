@@ -7,7 +7,7 @@ from pyspark.sql import Row
 
 if __name__ == '__main__':
     if len(sys.argv) != 4:
-        print("Usage: wordcount <file> <min_support> <min_confidence>", file=sys.stderr)
+        print("Usage: python <file> <min_support> <min_confidence>", file=sys.stderr)
         exit(-1)
 
     # Start a spark session
